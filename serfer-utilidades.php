@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Serfer Utilidades - CARASIR
  * Description: Funciones personalizadas para el blog CARASIR: caja de contacto, año dinámico, ocultación de versión y acceso personalizado.
- * Version: 1.0.0
+ * Version: 1.1.0
  * Author: Sergio Ferreira Ruiz
  * Text Domain: serfer-utilidades
  */
@@ -101,7 +101,7 @@ add_filter(
  */
 function serfer_login_aviso( $mensaje ) {
 
-    $aviso = '<div class="message">';
+    $aviso = '<div class="message" role="status">';
     $aviso .= '<p>';
     $aviso .= esc_html(
         'Acceso restringido al equipo de CARASIR'
